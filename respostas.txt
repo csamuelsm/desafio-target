@@ -1,0 +1,26 @@
+1) 91
+3a) 9
+3b) 128
+3c) 49
+3d) 100
+3e) 13
+3f) 200
+4) Resposta: Os dois estarão na mesma distância de Ribeirão Preto, pois como eles se cruzaram, eles estão no mesmo ponto da estrada.
+
+Explicação mais detalhada:
+
+(Considerando que Ribeirão Preto é o ponto 0km e Franca é o ponto 100km)
+Caminhão 1 que sai de Ribeirão Preto para Franca: 
+S1 = S0 + V*T => S1 = 0 + 110 * T
+
+Caminhão 2 que sai de Franca para Ribeirão preto:
+S2 = S0 + V*T => S2 = 100 + 80*T
+
+Vamos descobrir em qual tempo eles se cruzam fazendo S1 = S2
+S1 = S2 => 110*T = 100 + 80*T -> 110*T - 80*T = 100 => 30*T = 100 => T = 100/30
+
+Sabendo que os caminhões se cruzam em T = 100/30, podemos descobrir em que quilometragem da estrada eles estavam respectivamente.
+
+S1 = 110 * 100/30 =~ 366Km = 100 + 80*100/30 = S2
+
+Portanto, a distância de ambos para ribeirão preto é 366km - 0km = 366km.
